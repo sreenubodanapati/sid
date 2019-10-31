@@ -1,0 +1,242 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Conv_BentonSans Regular';
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+/* change colours to suit your needs */
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* change colours to suit your needs */
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* change border colour to suit your needs */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a,
+a:hover,
+a:visited {
+    text-decoration: none;
+    font-family: 'Conv_BentonSans Regular';
+    color: #585858;
+    word-break: break-all;
+}
+
+.clearfix {
+    clear: both
+}
+
+.clearfix::after,
+.clearfix::before {
+    clear: both;
+    content: '';
+    display: table
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/Innerpage-heo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.wraper {
+    margin: 80px;
+    display: flex;
+    padding: 0;
+    align-items: stretch;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+    height: calc(100vh - 160px);
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.side_nav {
+    width: 100px;
+    background-color: #F5F6FB;
+}
+
+.content {
+    width: calc(100% - 100px);
+    background-color: #ffffff;
+}
